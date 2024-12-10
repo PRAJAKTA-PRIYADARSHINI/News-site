@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+</head>
+<style>
+    .card{
+        background-color:#1c4966;
+        border: 2px  #EDE7D7;
+    }
+    .form-label,.card-title,.file{
+        color: #EDE7D7;
+        text-shadow: 0px 0px 2px #EDE7D7;
+    }
+    .btn,button{
+        background-color:#EDE7D7;
+
+    }
+    .btn:hover{
+        border:none;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        transform: scale(1.05);
+        transition: all 0.3s ease-in-out;
+    }
+    #options{
+        font-weight: bold;
+        color: #1c4966;
+    }
+body{
+    background-color: #EDE7D7;
+}
+textarea, select,.title {
+        background-color:#EDE7D7;
+}
+textarea {
+        color: #EDE7D7;
+        box-shadow: 0px 0px 2px #EDE7D7;
+
+    }
+
+select {
+        color: #1c4966;
+        padding: 5px;
+    }
+.card{
+    color: white;
+  box-shadow: 1px 1px 2px black, 0 0 25px rgb(62, 62, 182), 0 0 5px #1c4966;
+}
+</style>
+<body>
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="card" style="width: 400px;">
+            <div class="card-body">
+                <h5 class="card-title text-center">Add New Post</h5>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label fw-semibold ">Title</label>
+                        <input type="text" class="form-control title" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="">
+                            <label for=""class="form-label fw-semibold">Description</label>
+                            <textarea name="" id="" cols="48" rows="8"></textarea>
+                        </label>
+                    </div>
+                    <div class="mb-3">
+                        <label for="" class="form-label fw-semibold">Category</label>
+                        <select name=""id="options">
+                            <option value="">Select</option>
+                            <option value="">Entertainment</option>
+                            <option value="">Sports</option>
+                            <option value="">Politics</option>
+                            <option value="">Business</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="address" class="form-label fw-semibold">Post Image</label>
+                        <input type="file"class="file"><br>
+                        <button type="button" class="btn mt-3">Update</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

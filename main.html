@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body{
+            background-color:#EDE7D7;
+            margin:0px;
+            padding:0px;
+        }
+        a{
+            color:#EDE7D7;
+        }
+        .div1{
+            background-color:  #1c4966;
+        }
+        .text:hover{
+            text-shadow:0 0 15px #EDE7D7, 0 0 30px #EDE7D7, 0 0 45px #EDE7D7,0 0 60px #EDE7D7,0 0 75px #EDE7D7,0 0 90px #EDE7D7;
+        }
+        .btn{
+            color:#EDE7D7;
+        }
+        .btn:hover{
+           color:#EDE7D7;
+           border:none;
+           text-shadow:0 0 15px #EDE7D7, 0 0 30px #EDE7D7, 0 0 45px #EDE7D7,0 0 60px #EDE7D7,0 0 75px #EDE7D7,0 0 90px #EDE7D7;
+
+        }
+        input{
+            background-color:#EDE7D7;
+            padding:4px;
+            border-radius:5%;
+        }
+        .card-body{
+            background-color:#EDE7D7;
+        }
+        .card{
+           border:none;
+           /* height:200px; */
+        }
+        label{
+            color:#1c4966;
+        }
+        .recentposts{
+          color:#1c4966;
+        }
+        /* .ci1{
+          height:250px;
+        } */
+        .sform{
+          background-color:#1c4966;
+          border:none;
+        }
+        .searchbar{
+          margin-bottom: 15px;
+          width: 300px;
+        }
+         .cimg{
+          background-color: #EDE7D7;
+          margin-top:50px;
+         }
+         .innerimg{
+          background-color: #EDE7D7;
+         }
+         .recent{
+          background-color: #EDE7D7;
+         }
+         .recentbtn{
+          background-color: #1c4966;
+         }
+    </style>
+</head>
+<body>
+    <!-- SECTION PART -->
+    <div class="div1 row text-center fs-4 mt-3 pt-3 ">
+        <div class="col-md-2">
+            <a href="bussiness.html"class="text text-decoration-none">Business</a>
+        </div>
+        <div class="col-md-2">
+            <a href="entertainment.html"class=" text text-decoration-none">Entertainment</a>
+        </div>
+        <div class="col-md-2">
+            <a href="sports.html"class="text text-decoration-none">Sports</a>
+        </div>
+        <div class="col-md-2">
+            <a href="politics.html"class="text text-decoration-none" >Politics</a>
+        </div>
+        <div class="col-md-4 search">
+        <form action="" class="form-control sform">
+          <!-- <label for=""class="fw-semibold">SEARCH</label> -->
+          <input type="text" class="searchbar" placeholder="Search">
+          <button type="button" class="btn btn-md"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+          </div>
+          </div>
+    <!-- CAROUSEL -->
+    <div class="container mt-3 lh-lg">
+        <div class="row">
+            <div class="col-md-7 mt-3">
+    <div class="carousel slide rounded-circle" id="carouselExample"data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="60">
+            <img src="photo/buenos-aires-herald-argentine-newspaper-in-english-R2B6RW.jpg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="photo/daily-newspaper-isolated-with-clipping-path-2BB6HWE.jpg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="photo/yanks-land-in-germany!-the-slide-fastener-now-doing-123-big-jobs-for-the-armed-forces!-a-black-and-white-image-of-a-world-war-ii-era-american-newspaper-clipping-the-headline-yanks-land-in-germany!-sign.jpg" class="d-block w-100" alt="">
+          </div>
+        </div>
+        <button class=" carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next " type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </div>
+      <!-- SEARCH -->
+      <!-- <div class="col-md-5 mt-none">
+        
+        <div class="card w-75  mx-auto">
+            <div class="card-body">
+            <form action="" class="form-control sform">
+            <label for=""class="fw-semibold">SEARCH</label>
+            <input type="text" class="w-100 ">
+            <button type="button" class="btn btn-md"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+    </div>
+   </div> -->
+   <!-- RECENT POSTS -->
+   <div class="col-md-5 ">
+    <div class="recentposts">
+      <h3>Recent Posts</h3>
+    </div>
+    <marquee behavior="" direction="up" scrollamount="15" class="">
+   <div class="card recent " style="max-width:600px">
+    <div class="row g-0">
+      <div class="col-md-4 cimg">
+        <img src="photo/1732511473-4974.avif" class="img-fluid rounded-start img-thumbnail innerimg" alt="" >
+        </div>
+      <div class="col-md-8 ">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text lh-1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-body-secondary lh-1">Last updated 3 mins ago</small></p>
+          <a class="btn btn-outline-primary lh-1 recentbtn" href="#" role="button">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="card recent " style="max-width:600px">
+  <div class="row g-0">
+    <div class="col-md-4 cimg">
+      <img src="photo/buenos-aires-herald-argentine-newspaper-in-english-R2B6RW.jpg" class="img-fluid rounded-start innerimg img-thumbnail" alt="">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text lh-1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        <a class="btn btn-outline-primary lh-1 recentbtn" href="#" role="button">Read More</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card recent" style="max-width:600px">
+  <div class="row g-0">
+    <div class="col-md-4 cimg">
+      <img src="photo/buenos-aires-herald-argentine-newspaper-in-english-R2B6RW.jpg" class="img-fluid rounded-start innerimg img-thumbnail" alt="">
+      </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text lh-1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        <a class="btn btn-outline-primary  lh-1 recentbtn" href="#" role="button">Read More</a>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="card recent" style="max-width:600px">
+    <div class="row g-0">
+      <div class="col-md-4 cimg">
+        <img src="photo/buenos-aires-herald-argentine-newspaper-in-english-R2B6RW.jpg" class="img-fluid rounded-start innerimg img-thumbnail" alt="">
+        </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text lh-1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          <a class="btn btn-outline-primary  lh-1 recentbtn" href="#" role="button">Read More</a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="card recent" style="max-width:600px">
+        <div class="row g-0">
+          <div class="col-md-4 cimg">
+            <img src="photo/buenos-aires-herald-argentine-newspaper-in-english-R2B6RW.jpg" class="img-fluid rounded-start innerimg img-thumbnail" alt="">
+            </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text lh-1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              <a class="btn btn-outline-primary  lh-1 recentbtn" href="#" role="button">Read More</a>
+            </div>
+          </div>
+        </div>
+        </div>
+</marquee>
+</div>
+</div>
+</div>
+</div>
+<script src="bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>
